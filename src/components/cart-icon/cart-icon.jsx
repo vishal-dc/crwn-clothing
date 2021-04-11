@@ -13,7 +13,7 @@ const CartIcon = ({toggleCartHidden, itemCount}) => (
     </div>
 );
 
-const mapStateToProps =createStructuredSelector({
+const mapStateToProps = createStructuredSelector({
     itemCount: selectCartItemsCount
 });
 
